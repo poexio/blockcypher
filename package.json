@@ -1,14 +1,30 @@
 {
-  "name"          : "blockcypher",
-  "main"          : "./lib/bcypher.js",
-  "version"       : "0.2.0",
-  "description"   : "A REST API client for BlockCypher",
-	"repository"    : "https://github.com/blockcypher/node-client",
-  "license"       : "MIT",
-  "engines"       : {
-    "node"        : ">=4.0.0"
+  "name": "@poexio/blockcypher",
+  "version": "0.3.0",
+  "description": "Node.js client for the BlockCypher API",
+  "main": "./lib/bcypher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies"  : {
-    "request"     : "^2.67.0"
-	}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poexio/blockcypher.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "blockchain",
+    "blockcypher"
+  ],
+  "author": "PoEx Co., Ltd",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/poexio/blockcypher/issues"
+  },
+  "homepage": "https://github.com/poexio/blockcypher#readme",
+  "dependencies": {
+    "request": "^2.67.0"
+  }
 }
