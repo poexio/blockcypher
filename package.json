@@ -4,7 +4,7 @@
   "description": "Node.js client for the BlockCypher API",
   "main": "./lib/bcypher.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard 'lib/**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/poexio/blockcypher#readme",
   "dependencies": {
     "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
   }
 }
