@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/poexio/blockcypher#readme",
   "dependencies": {
-    "request": "^2.67.0"
+    "request": "^2.67.0",
+    "request-promise-native": "^1.0.5"
   },
   "devDependencies": {
     "standard": "^10.0.3"
