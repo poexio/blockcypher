@@ -4,6 +4,7 @@
   "description": "Node.js client for the BlockCypher API",
   "main": "./lib/bcypher.js",
   "scripts": {
+    "docs": "jsdoc -d docs -R README.md lib",
     "test": "standard 'lib/**/*.js'"
   },
   "repository": {
@@ -29,6 +30,7 @@
     "request-promise-native": "^1.0.5"
   },
   "devDependencies": {
+    "jsdoc": "^3.5.5",
     "standard": "^10.0.3"
   }
 }
