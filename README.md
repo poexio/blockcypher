@@ -48,3 +48,10 @@ main()
   .then(d => { console.log(d) })
   .catch(e => { console.log(e.message) })
 ```
+
+## License
+
+The MIT License (MIT)
+
+Copyright &copy; 2015 BlockCypher, Inc.  
+Copyright &copy; 2018 PoEx Co., Ltd
