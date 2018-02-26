@@ -49,6 +49,15 @@ main()
   .catch(e => { console.log(e.message) })
 ```
 
+### Configurable Endpoint
+
+In case you need to route requests through a proxy, the service URL can be
+changed with:
+
+```js
+const bcapi = new Bcypher('btc', 'main', 'YOURTOKEN', 'https://some-proxy.example.com/v1/')
+```
+
 ## License
 
 The MIT License (MIT)
