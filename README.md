@@ -1,8 +1,12 @@
 # Blockcypher Client
 
-A fork of the official Node.js SDK for the BlockCypher Web services. See
-[http://dev.blockcypher.com](http://dev.blockcypher.com/) for detailed
-documentation.
+A flexible Node.js client for the BlockCypher API, using promises and a
+configurable endpoint.
+
+The code is available at
+[github.com/poexio/blockcypher](https://github.com/poexio/blockcypher).
+
+See [dev.blockcypher.com](http://dev.blockcypher.com/) for more information.
 
 To install, just use npm:
 
@@ -24,7 +28,7 @@ const main = async () => {
   // get block height without any optional URL params
   const block = await bcapi.getBlock(300000)
 
-  // get block height with an optional "txstart" param, as outlined in docs here: http://dev.blockcypher.com/
+  // get block height with an optional "txstart" param
   const block2 = await bcapi.getBlock(300000, {txstart: 2})
 
   // Let's try a post request, like making a new webhook
@@ -56,6 +60,22 @@ changed with:
 
 ```js
 const bcapi = new Bcypher('btc', 'main', 'YOURTOKEN', 'https://some-proxy.example.com/v1/')
+```
+
+## Testing
+
+Run tests with:
+
+```sh
+npm test
+```
+
+## Documentation
+
+Generate docs with:
+
+```sh
+npm run docs
 ```
 
 ## License
